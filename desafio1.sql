@@ -77,9 +77,9 @@ DROP DATABASE IF EXISTS SpotifyClone;
     ('Sandi Metz', 58, 2, '2018-04-29'),
     ('Paulo Freire', 19, 3, '2018-02-14'),
     ('Bell Hooks', 26, 3, '2018-01-05'),
-    ('Christopher Alexander ', 85, 4, '2019-06-05'),
-    ('Judith Butler ', 45, 4, '2020-05-13'),
-    ('Jorge Amado ', 58, 4, '2017-02-17');
+    ('Christopher Alexander', 85, 4, '2019-06-05'),
+    ('Judith Butler', 45, 4, '2020-05-13'),
+    ('Jorge Amado', 58, 4, '2017-02-17');
 
   INSERT INTO SpotifyClone.album (album_name, artist_id, release_year)
   VALUES 
