@@ -1,3 +1,4 @@
+-- Active: 1660757313270@@127.0.0.1@3307@SpotifyClone
 SELECT 
   COUNT(SpotifyClone.songs.song) AS cancoes,
   (SELECT COUNT(artist_name) FROM SpotifyClone.artist) AS artistas,
