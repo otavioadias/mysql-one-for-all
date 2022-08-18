@@ -52,7 +52,7 @@ DROP DATABASE IF EXISTS SpotifyClone;
       `song_id` INTEGER,
       `date` DATETIME,
       `song` VARCHAR(255) NOT NULL,
-       CONSTRAINT PRIMARY KEY(user_id, song_id),
+      CONSTRAINT PRIMARY KEY(user_id, song_id),
       FOREIGN KEY (user_id) REFERENCES user (user_id),
       FOREIGN KEY (song_id) REFERENCES songs (song_id)
   );
